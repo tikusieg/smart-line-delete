@@ -3,7 +3,7 @@
   "displayName": "Smart Line Delete",
   "description": "Delete the current logical line and move to the end of the previous line.",
   "version": "0.1.0",
-  "publisher": "local-tools",
+  "publisher": "tikusieg",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -37,5 +37,10 @@
     "line",
     "keyboard",
     "productivity"
-  ]
+  ],
+  "author": {
+    "name": "tikusieg",
+    "url": "https://github.com/tikusieg"
+  },
+  "icon": "images/icon.png"
 }

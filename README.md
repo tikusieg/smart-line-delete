@@ -1,5 +1,7 @@
 # Smart Line Delete
 
+<img src="images/icon.png" alt="Smart Line Delete icon" width="128" height="128">
+
 現在カーソルがある行を丸ごと削除し、直前の行の末尾へ移動する VS Code 拡張機能です。
 
 ## インストール
@@ -50,7 +52,7 @@ F5 で起動した開発用ウィンドウで、ショートカットを手動�
 
 ### Marketplace への公開
 
-`package.json` の `publisher` はローカル配布用の仮値 `local-tools` です。Marketplace に公開する際は、自分が登録した Publisher ID に置き換えてから VSIX を作り直してください。GitHub のユーザー名とは別の設定です。
+`package.json` の `publisher` は `tikusieg` に設定しています。Marketplace に公開する前に、この Publisher ID を自分のアカウントで登録していることを確認してください。登録済みの ID が異なる場合は、その ID に変更してから VSIX を作り直してください。GitHub のユーザー名とは別の設定です。
 
 ## リンク
 
