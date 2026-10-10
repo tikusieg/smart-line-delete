@@ -150,3 +150,6 @@ vite.config.ts.timestamp-*
 
 # Packaged VS Code extensions
 *.vsix
+
+# macOS folder metadata
+.DS_Store
