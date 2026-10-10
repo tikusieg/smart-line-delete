@@ -1,0 +1,41 @@
+{
+  "name": "smart-line-delete",
+  "displayName": "Smart Line Delete",
+  "description": "Delete the current logical line and move to the end of the previous line.",
+  "version": "0.1.0",
+  "publisher": "local-tools",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "license": "MIT",
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "smartLineDelete.execute",
+        "title": "現在行を削除して前の行末へ移動",
+        "category": "Smart Line Delete"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tikusieg/smart-line-delete.git"
+  },
+  "homepage": "https://github.com/tikusieg/smart-line-delete#readme",
+  "bugs": {
+    "url": "https://github.com/tikusieg/smart-line-delete/issues"
+  },
+  "keywords": [
+    "delete",
+    "line",
+    "keyboard",
+    "productivity"
+  ]
+}
